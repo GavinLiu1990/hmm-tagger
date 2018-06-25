@@ -3,6 +3,8 @@
 1.此程序主要用于序列标记，比如中文分词(B/E/M/S)，比如词性标注(n/v/a/m...)。 <br>
 2.此处HMM模型训练，是监督式学习，即训练文件是带有标记的。 <br>
 3.需要python3及以上，需要安装numpy，文件编码格式需为utf8。 <br>
+4.先运行data文件夹下的wordseg2hmmtrain.py和pos2hmmtrain.py，再运行hmm_learn.py。 <br>
+
 
 #### 训练HMM模型
 
