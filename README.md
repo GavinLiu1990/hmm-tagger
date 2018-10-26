@@ -6,17 +6,13 @@
 4.先运行data文件夹下的wordseg2hmmtrain.py和pos2hmmtrain.py，再运行hmm_learn.py。 <br>
 
 
-#### 训练HMM模型
-
->hmm_learn.py  trainfile  modelfile
+#### 训练HMM模型（hmm_learn.py　train　model）
 
 >比如中文分词  hmm_learn.py  data/pd98month1_wordseg_hmmtrain  data/pd98month1_wordseg_model <br>
 >比如词性标注  hmm_learn.py  data/pd98month1_pos_hmmtrain  data/pd98month1_pos_model
 
 
-#### 测试HMM模型
-
->hmm_test.py  modelfile  testfile  testresultfile  [options]
+#### 测试HMM模型（hmm_test.py　model　test　result　[options]）
 
 >比如中文分词  hmm_test.py  data/pd98month1_wordseg_model data/test_wordseg  data/test_wordseg_result <br>
 >比如词性标注  hmm_test.py  data/pd98month1_pos_model  data/test_pos  data/test_pos_result
